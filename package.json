@@ -1,0 +1,14 @@
+{
+  "name": "starwarsnames",
+  "version": "1.0.0",
+  "description": "webpack configuration",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vali Shah <vali.shah7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
