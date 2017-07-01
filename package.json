@@ -1,5 +1,5 @@
 {
-  "name": "starwarsnames",
+  "name": "starwars--names",
   "version": "1.0.0",
   "description": "webpack configuration",
   "main": "src/index.js",
@@ -10,5 +10,14 @@
   "license": "MIT",
   "dependencies": {
     "unique-random-array": "1.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valishah/starwars-names.git"
+  },
+  "bugs": {
+    "url": "https://github.com/valishah/starwars-names/issues"
+  },
+  "homepage": "https://github.com/valishah/starwars-names#readme"
 }
