@@ -1,20 +1,31 @@
 {
   "name": "starwars--names",
-  "version": "1.4.0-beta.0",
+  "version": "0.0.0-development",
   "description": "webpack configuration",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit" : "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "Vali Shah <vali.shah7@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "unique-random-array": "1.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "4.0.2",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.0.0",
+    "mocha": "3.4.2",
+    "semantic-release": "^6.3.6"
+  },
+  "czConfig" : {
+      "path": "node_modules/cz-conventional-changelog"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valishah/starwars-names.git"
+    "url": "https://github.com/valishah/starwars-names.git"
   },
   "bugs": {
     "url": "https://github.com/valishah/starwars-names/issues"
